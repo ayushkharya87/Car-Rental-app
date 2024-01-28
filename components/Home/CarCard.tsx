@@ -25,7 +25,7 @@ function CarCard(props:any) {
             <span className='text-[12px] font-light'> /day</span>
         </h2>
 
-        <Image src={car.image?.url} alt={car.name} width={220} height={200} className='w-[250px] h-[150px] mb-3 object-contain' />
+        <Image src={car.image?.url || "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-bird-170811.jpg&fm=jpg"}  alt={car.name} width={220} height={200}  className='w-[250px] h-[150px] mb-3 object-contain' />
  
         <div className='flex justify-around group-hover:hidden'>
             <div className='text-center text-gray-500'>
