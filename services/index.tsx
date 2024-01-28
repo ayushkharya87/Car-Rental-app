@@ -50,6 +50,7 @@ export const getStoreLocations = async () => {
 }
 
 
+
 export const createBooking = async (formValue:any) => {
     const mutationQuery = gql `
     mutation MyMutation {
